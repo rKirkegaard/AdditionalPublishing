@@ -1,0 +1,4 @@
+# AdditionalPublishing
+The module adds a new Chunck into the "Publishing" tab, named "Additional Publishing" containing two new commands, "Publish Myn Items" and "Publish Deleted Items" respectivily.  The "Publish My items" command compares all the Publishing candidates in the Publishing Queue and publish the items, if the "__Updated by" value equals the current Sitecore user. If the current Sitecore user is an administrator, the administrator can choose another Sitecore user, for whom items will be published.  The "Publish Deleted Items" command publish all deleted items located in the Publishing Queue. In this way you do not need to publish the parent item of the deleted item (avoid publishing the changes at the parent item as well).
+
+Original posted here: https://marketplace.sitecore.net/en/Modules/A/Additional_Publishing.aspx
